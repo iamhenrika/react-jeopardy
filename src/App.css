@@ -1,74 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
   text-align: center;
   background-color: #3e5f73;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.App h1{
   color: white;
-  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.Score h1{
-  color:#e7d07a
+.App h1 {
+  font-size: 300%;
 }
 
-.Score span{
+.Score h1 {
+  color: #e7d07a;
+}
+
+.Score span {
   color: white;
 }
 
-.Score button{
+.Score button {
   height: 50px;
   border-radius: 10px;
   width: 100px;
   margin: 8px;
 }
 
-.Score button:first-of-type{
+.Score button:first-of-type {
   background-color: #fe938c;
-  
 }
 
-.Score button:nth-child(2){
-  background-color: #6191b5 ;
+.Score button:nth-child(2) {
+  background-color: #6191b5;
 }
 
-.Score button:nth-last-child(1){
-  background-color: #e71d37 ;
+.Score button:nth-last-child(1) {
+  background-color: #e71d37;
 }
 
-.Board h2{
-  color: #F6BE00;
+.Board h2 {
+  color: #e7d07a;
 }
 
-.Board h3{
-  color: #F6BE00;
+.Board h3 {
+  color: #e7d07a;
 }
 
-.Board span{
+.Board span {
   color: white;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
-.Board button{
+.Board button {
   height: 50px;
   border-radius: 10px;
   width: 100px;
   border: none;
-  background-color: #F6BE00;
+  background-color: #e7d07a;
 }
 
-.Answer button{
-  height: 50px;
-  width: 50%;
+.Answer button {
+  height: 60px;
+  width: 400px;
   border: none;
   background-color: #1a2650;
   color: white;
 }
-.Answer h2{
+.Answer h2 {
   color: white;
+  text-transform: capitalize;
 }

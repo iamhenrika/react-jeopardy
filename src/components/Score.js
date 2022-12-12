@@ -15,7 +15,9 @@ export default function Score({ question }) {
           </button>
           <button onClick={() => setCount(0)}>Reset</button>
         </div>
+        <h1>Let's Play!</h1>
       </div>
+      
     );
     
   }
